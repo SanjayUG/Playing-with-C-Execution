@@ -29,14 +29,14 @@ Oerating system will load it into memory and processor executes it.
 
 ``` gcc -S addition_of_two_nums.i -o addition_of_two_nums.s  ```
 
-## 3. Assembly
+## 3. Command for Assembly
 
 ``` gcc -c addition_of_two_nums.s -o addition_of_two_nums.o  ```
 
-## 4. Linking
+## 4. Command for Linking
 
 ``` gcc addition_of_two_nums.o -o addition_of_two_nums  ```
 
-## 5. Execution
+## 5. Command for Execution
 
 ``` ./addition_of_two_nums  ```
