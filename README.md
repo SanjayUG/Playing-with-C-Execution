@@ -3,12 +3,23 @@
 
 ## Steps:
 
-1. Preprocessing
-2. Compilation
-3. Assembly
-4. Linking
-5. Execution
+### 1. Preprocessing
+File Inclusion: The preprocessor includes the content of header files (like stdio.h) into the source code.
+Macro Expansion: If there are any macros, they are expanded.
 
+### 2. Compilation
+Syntax Checking: Ensures that the code follows the C language syntax rules.
+Generation of Assembly Code: The compiler generates assembly code, which is a low-level representation of the program.
+
+### 3. Assembly
+The assembler converts the assembly code into object code, which is a binary format understood by the machine but still not executable. 
+
+### 4. Linking
+Static Libraries: The linker adds the actual code from these libraries into the executable.
+Dynamic Libraries: The linker adds references to these libraries, which are loaded when the program is executed.
+
+### 5. Execution
+Oerating system will load it into memory and processor executes it.
 
 ## 1. Command for Preprocessing
 
